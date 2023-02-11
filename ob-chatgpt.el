@@ -1,4 +1,4 @@
-;;; ob-chatgpt.el --- Wrap your input for chatgpt with org-babel -*- lexical-binding: t; -*-
+;;; ob-chatgpt.el --- Wrap your input for chatgpt with org-babel
 ;;
 ;; Authors: Minh Nguyen-Hue <minh.nh1989@gmail.com>
 ;; URL: https://github.com/suonlight/ob-chatgpt
@@ -27,9 +27,13 @@
 (require 'chatgpt)
 (require 'python)
 
+(add-to-list 'org-src-lang-modes '("chatgpt" . fundamental))
+
+;;;###autoload
 (defvar org-babel-default-header-args:chatgpt '((:wrap . "example"))
   "Default header arguments for forth code blocks.")
 
+;;;###autoload
 (defun org-babel-execute:chatgpt (body params)
   "Execute a block of ChatGPT code with org-babel.
   This function is called by `org-babel` when it needs to execute a code block in the ChatGPT language."
