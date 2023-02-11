@@ -3,8 +3,8 @@
 ;; Authors: Minh Nguyen-Hue <minh.nh1989@gmail.com>
 ;; URL: https://github.com/suonlight/ob-chatgpt
 ;; Keywords: chatgpt, org-babel
-;; Version: 1.0
-;; Package-Requires: ((emacs "28.3"))
+;; Version: 0.1
+;; Package-Requires: ((epc "0.1.1") (deferred "0.5.1") (chatgpt "0.1"))
 ;;
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -23,6 +23,7 @@
 
 ;;; Code:
 (require 'uuidgen)
+(require 'deferred)
 (require 'chatgpt)
 (require 'python)
 
