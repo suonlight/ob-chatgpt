@@ -2,6 +2,8 @@
 
 `ob-chatgpt` is an Emacs package that allows you to query OpenAI's GPT-3 language model directly from within org-babel code blocks. This package uses https://github.com/joshcho/ChatGPT.el under the hood. With `ob-chatgpt`, you can write and execute code blocks that communicate with chatgpt, allowing you to harness the power of the largest language model to date in your org-mode documents.
 
+![Demo](http://g.recordit.co/dTORu7nQty.gif)
+
 # Installation
 
 To install `ob-chatgpt`, you will need to have `ChatGPT.el` installed. You can find installation instructions for `ChatGPT.el` at https://github.com/joshcho/ChatGPT.el.
