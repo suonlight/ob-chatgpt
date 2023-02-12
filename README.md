@@ -41,3 +41,13 @@ What is the capital of France?
 ```
 
 When you execute this code block, `ob-chatgpt` will send the text "What is the capital of France?" to chatgpt, and return the response to the code block.
+
+# Troubleshooting
+
+A frequent cause of no response from ob-chatgpt or the *ChatGPT* buffer is the need to re-authenticate ChatGPT, as explained in the first three issues found at https://github.com/joshcho/ChatGPT.el#troubleshooting. To address this, employ the following code:
+
+``` emacs-lisp
+(chatgpt-reset)
+(chatgpt-stop)
+(chatgpt-login)
+```
