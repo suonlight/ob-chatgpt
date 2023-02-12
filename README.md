@@ -51,3 +51,5 @@ A frequent cause of no response from ob-chatgpt or the *ChatGPT* buffer is the n
 (chatgpt-stop)
 (chatgpt-login)
 ```
+
+![Restart Screenshot](./screenshots/restart_chatgpt.png)
