@@ -4,7 +4,7 @@
 ;; URL: https://github.com/suonlight/ob-chatgpt
 ;; Keywords: chatgpt, org-babel
 ;; Version: 0.1
-;; Package-Requires: ((epc "0.1.1") (deferred "0.5.1") (chatgpt "0.1"))
+;; Package-Requires: ((epc "0.1.1") (deferred "0.5.1") (chatgpt "0.1") (uuidgen "1.2"))
 ;;
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
